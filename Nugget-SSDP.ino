@@ -19,8 +19,8 @@ Modified to work on the Adafruit ESP32-S2 Feather TFT - Ben Dash
 Adafruit_ST7789 tft = Adafruit_ST7789(TFT_CS, TFT_DC, TFT_RST);
 
 // WiFi credentials
-const char* ssid = "INDIGO";
-const char* password = "redsun1234";
+const char* ssid = "SSID";
+const char* password = "password";
 
 // start webserver
 AsyncWebServer webserver(80);
